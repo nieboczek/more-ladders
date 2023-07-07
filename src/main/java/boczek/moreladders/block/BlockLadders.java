@@ -14,15 +14,15 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class BlockLadders {
-    public static final Block SPRUCE_LADDER = registerBlock("spruce_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
-    public static final Block BIRCH_LADDER = registerBlock("birch_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
-    public static final Block DARK_OAK_LADDER = registerBlock("dark_oak_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
-    public static final Block JUNGLE_LADDER = registerBlock("jungle_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
-    public static final Block WARPED_LADDER = registerBlock("warped_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
-    public static final Block CRIMSON_LADDER = registerBlock("crimson_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
-    public static final Block IRON_LADDER = registerBlock("iron_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
-    public static final Block ACACIA_LADDER = registerBlock("acacia_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
-    public static final Block CHAIN_LADDER = registerBlock("chain_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).nonOpaque().sounds(BlockSoundGroup.LADDER)));
+    public static final Block SPRUCE_LADDER = registerBlock("spruce_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block BIRCH_LADDER = registerBlock("birch_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block DARK_OAK_LADDER = registerBlock("dark_oak_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block JUNGLE_LADDER = registerBlock("jungle_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block WARPED_LADDER = registerBlock("warped_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block CRIMSON_LADDER = registerBlock("crimson_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block IRON_LADDER = registerBlock("iron_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block ACACIA_LADDER = registerBlock("acacia_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block CHAIN_LADDER = registerBlock("chain_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
