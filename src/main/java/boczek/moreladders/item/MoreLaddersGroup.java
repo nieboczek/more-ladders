@@ -17,5 +17,7 @@ public class MoreLaddersGroup {
                         // Items to add
                         entries.add(BlockLadders.SPRUCE_LADDER);
                     }).build());
-    public static void load
+    public static void load() {
+        MoreLadders.LOGGER.info("Registering More Ladders Group");
+    }
 }
