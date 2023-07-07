@@ -16,6 +16,14 @@ public class MoreLaddersGroup {
                     .entries((displayContext, entries) -> {
                         // Items to add
                         entries.add(BlockLadders.SPRUCE_LADDER);
+                        entries.add(BlockLadders.BIRCH_LADDER);
+                        entries.add(BlockLadders.CHAIN_LADDER);
+                        entries.add(BlockLadders.ACACIA_LADDER);
+                        entries.add(BlockLadders.CRIMSON_LADDER);
+                        entries.add(BlockLadders.WARPED_LADDER);
+                        entries.add(BlockLadders.DARK_OAK_LADDER);
+                        entries.add(BlockLadders.IRON_LADDER);
+                        entries.add(BlockLadders.JUNGLE_LADDER);
                     }).build());
     public static void load() {
         MoreLadders.LOGGER.info("Registering More Ladders Group");
