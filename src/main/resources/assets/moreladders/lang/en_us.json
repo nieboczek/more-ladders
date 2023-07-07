@@ -1,0 +1,12 @@
+{
+  "block.moreladders.spruce_ladder": "Spruce Ladder",
+  "block.moreladders.birch_ladder": "Birch Ladder",
+  "block.moreladders.dark_oak_ladder": "Dark Oak Ladder",
+  "block.moreladders.jungle_ladder": "Jungle Ladder",
+  "block.moreladders.acacia_ladder": "Acacia Ladder",
+  "block.moreladders.crimson_ladder": "Crimson Ladder",
+  "block.moreladders.warped_ladder": "Warped Ladder",
+  "block.moreladders.chain_ladder": "Chain Ladder",
+  "block.moreladders.iron_ladder": "Iron Ladder",
+  "itemgroup.more-ladders": "More ladders"
+}

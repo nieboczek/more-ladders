@@ -1,0 +1,12 @@
+{
+  "block.moreladders.spruce_ladder": "Świerkowa drabina",
+  "block.moreladders.birch_ladder": "Brzozowa drabina",
+  "block.moreladders.dark_oak_ladder": "Ciemno dębowa drabina",
+  "block.moreladders.jungle_ladder": "Tropikalna drabina",
+  "block.moreladders.acacia_ladder": "Akacjowa drabina",
+  "block.moreladders.crimson_ladder": "Szkarłatna drabina",
+  "block.moreladders.warped_ladder": "Spaczona drabina",
+  "block.moreladders.chain_ladder": "Łańcuchowa drabina",
+  "block.moreladders.iron_ladder": "Żelazna drabina",
+  "itemgroup.more-ladders": "Więcej drabin"
+}
