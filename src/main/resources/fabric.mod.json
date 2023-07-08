@@ -19,9 +19,6 @@
     ],
     "main": [
       "boczek.moreladders.MoreLadders"
-    ],
-    "fabric-datagen": [
-      "boczek.moreladders.MoreLaddersDataGenerator"
     ]
   },
   "mixins": [

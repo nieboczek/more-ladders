@@ -1,5 +1,14 @@
 {
   "values": [
-    "moreladders:birch_ladder"
+    "moreladders:acacia_ladder",
+    "moreladders:birch_ladder",
+    "moreladders:chain_ladder",
+    "moreladders:crimson_ladder",
+    "moreladders:dark_oak_ladder",
+    "moreladders:iron_ladder",
+    "moreladders:jungle_ladder",
+    "moreladders:spruce_ladder",
+    "moreladders:warped_ladder",
+    "moreladders:cherry_ladder"
   ]
 }

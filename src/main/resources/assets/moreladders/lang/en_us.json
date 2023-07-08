@@ -8,5 +8,6 @@
   "block.moreladders.warped_ladder": "Warped Ladder",
   "block.moreladders.chain_ladder": "Chain Ladder",
   "block.moreladders.iron_ladder": "Iron Ladder",
-  "itemgroup.more-ladders": "More ladders"
+  "block.moreladders.cherry_ladder": "Cherry Ladder",
+  "itemgroup.more-ladders": "More Ladders"
 }

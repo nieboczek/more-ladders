@@ -23,6 +23,7 @@ public class BlockLadders {
     public static final Block IRON_LADDER = registerBlock("iron_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
     public static final Block ACACIA_LADDER = registerBlock("acacia_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
     public static final Block CHAIN_LADDER = registerBlock("chain_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block CHERRY_LADDER = registerBlock("cherry_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
