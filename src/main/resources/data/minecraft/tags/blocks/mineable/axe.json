@@ -1,17 +1,16 @@
 {
   "replace": false,
   "values": [
+    "moreladders:mangrove_ladder",
     "moreladders:acacia_ladder",
+    "moreladders:bamboo_ladder",
     "moreladders:birch_ladder",
-    "moreladders:chain_ladder",
+    "moreladders:cherry_ladder",
     "moreladders:crimson_ladder",
     "moreladders:dark_oak_ladder",
-    "moreladders:iron_ladder",
     "moreladders:jungle_ladder",
+    "moreladders:mangrove_ladder",
     "moreladders:spruce_ladder",
-    "moreladders:warped_ladder",
-    "moreladders:cherry_ladder",
-    "moreladders:bamboo_ladder",
-    "moreladders:mangrove_ladder"
+    "moreladders:warped_ladder"
   ]
 }

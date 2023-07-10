@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "building_blocks",
+  "group": "more-ladders",
   "key": {
     "#": {
-      "item": "minecraft:iron"
+      "item": "minecraft:iron_nugget"
     }
   },
   "pattern": [
-    "---",
-    "#-#",
-    "#-#"
+    "   ",
+    "# #",
+    "# #"
   ],
   "result": {
     "item": "moreladders:iron_ladder",
-    "count": 8
+    "count": 2
   }
 }

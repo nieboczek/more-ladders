@@ -26,6 +26,7 @@ public class MoreLaddersGroup {
                         entries.add(BlockLadders.JUNGLE_LADDER);
                         entries.add(BlockLadders.CHERRY_LADDER);
                         entries.add(BlockLadders.BAMBOO_LADDER);
+                        entries.add(BlockLadders.MANGROVE_LADDER);
                     }).build());
     public static void load() {
         MoreLadders.LOGGER.info("Registering More Ladders Group");
