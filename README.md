@@ -1,4 +1,31 @@
 # More Ladders
-### Mod that adds more types of ladders from current wood types
-[<img src="https://camo.githubusercontent.com/1eaa170f8b386b7a92cdc9c8eb6243c667c188bd25bba8925400018f92d650b7/68747470733a2f2f692e696d6775722e636f6d2f625475733477482e706e67" alt="Requires Fabric API" width="250px">](https://modrinth.com/mod/fabric-api)
-<!-- bro why putting an image in .MD file so hard -->
+### Mod that adds more types of ladders from wood types and other things
+Currently Supporting 12 ladders:
+- Acacia ladder
+- Bamboo ladder
+- Birch ladder
+- Chain ladder
+- Cherry ladder
+- Crimson ladder
+- Dark oak ladder
+- Iron ladder
+- Jungle ladder
+- Mangrove ladder
+- Spruce ladder
+- Warped ladder
+
+Every crafting recipe is:
+
+XXX
+
+RXR
+
+RXR
+
+Where R is resource and X is nothing.
+
+[<img src="https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2F%40intergrav%2Fdevins-badges%403%2Fassets%2Fcozy%2Frequires%2Ffabric-api_vector.svg&amp;n=-1" alt="Requires Fabric API">](https://modrinth.com/mod/fabric-api)
+
+# Notes
+Iron ladder requires iron nuggets and crafts only to 2 ladders instead of 4.
+Chains craft into 6 ladders
