@@ -1,0 +1,15 @@
+{
+  "block.moreladders.spruce_ladder": "Еловая лестница",
+  "block.moreladders.birch_ladder": "Березовая лестница",
+  "block.moreladders.dark_oak_ladder": "Лестница из темного дуба",
+  "block.moreladders.jungle_ladder": "Тропическая лестница",
+  "block.moreladders.acacia_ladder": "Лестница из акации",
+  "block.moreladders.crimson_ladder": "Багровая лестница",
+  "block.moreladders.warped_ladder": "Искажённая лестница",
+  "block.moreladders.chain_ladder": "Лестница с цепями",
+  "block.moreladders.iron_ladder": "Железная лестница",
+  "block.moreladders.cherry_ladder": "Вишневая лестница",
+  "block.moreladders.bamboo_ladder": "Бамбуковая лестница",
+  "block.moreladders.mangrove_ladder": "Мангровая лестница",
+  "itemgroup.more-ladders": "More Ladders"
+}
