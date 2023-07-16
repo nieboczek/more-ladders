@@ -29,3 +29,4 @@ Where R is resource and X is nothing.
 # Notes
 Iron ladder requires iron nuggets and crafts only to 2 ladders instead of 4.
 Chains craft into 6 ladders
+Make suggestions [via Issues](https://github.com/Bocz3k/more-ladders/issues) or on [Discord](https://discord.gg/9b9EkrkNZS)
