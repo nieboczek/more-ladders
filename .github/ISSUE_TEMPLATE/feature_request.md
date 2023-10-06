@@ -1,11 +1,11 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+description: Suggest an idea for this project
 title: "[Enhacement] Title"
 labels: enhancement
-assignees: ''
 
 ---
+# Feature Request
 
-# Description of idea
-<!-- very clear description of your idea -->
+## Description of the idea
+<!-- Clear description of your idea -->
