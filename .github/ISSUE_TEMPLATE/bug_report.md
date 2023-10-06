@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+description: Create a report to help us improve
 title: "[Bug] Title"
 labels: bug
 
@@ -9,8 +9,8 @@ labels: bug
 
 ## Info
 <!-- Fill the information -->
-Minecraft version: 
-Mod version: 
+Minecraft version: <!-- 1.20 -->  
+Mod version: <!-- 1.20-1.2 -->  
 Log file: <!-- Optional -->
 
 ## Bug description
