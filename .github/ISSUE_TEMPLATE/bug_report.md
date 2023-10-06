@@ -3,14 +3,19 @@ name: Bug report
 about: Create a report to help us improve
 title: "[Bug] Title"
 labels: bug
-assignees: ''
 
 ---
+# Bug report
 
-# Bug description
-<!-- A clear and concise description of what the bug is. -->
+## Info
+<!-- Fill the information -->
+Minecraft version: 
+Mod version: 
+Log file: <!-- Optional -->
 
-# Version
-<!-- What Minecraft version it is on, and what version of mod it is on -->
+## Bug description
+<!-- A clear description of what the bug is. -->
 
-<!-- you can add screenshots and some text if you want -->
+
+## Screenshots
+<!-- You can add some screenshots if you want -->
