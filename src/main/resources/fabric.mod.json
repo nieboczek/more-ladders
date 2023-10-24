@@ -21,9 +21,6 @@
       "boczek.moreladders.MoreLadders"
     ]
   },
-  "mixins": [
-    "moreladders.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
