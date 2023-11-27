@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "moreladders:iron_ladder",
-    "moreladders:chain_ladder"
+    "moreladders:chain_ladder",
+    "moreladders:gold_ladder"
   ]
 }

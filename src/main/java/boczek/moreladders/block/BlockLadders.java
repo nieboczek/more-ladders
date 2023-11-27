@@ -26,6 +26,7 @@ public class BlockLadders {
     public static final Block CHERRY_LADDER = registerBlock("cherry_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
     public static final Block BAMBOO_LADDER = registerBlock("bamboo_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
     public static final Block MANGROVE_LADDER = registerBlock("mangrove_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block GOLD_LADDER = registerBlock("gold_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

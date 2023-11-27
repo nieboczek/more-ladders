@@ -21,5 +21,6 @@ public class MoreLaddersClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.CHERRY_LADDER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.BAMBOO_LADDER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.MANGROVE_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.GOLD_LADDER, RenderLayer.getCutout());
     }
 }
