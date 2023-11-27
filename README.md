@@ -23,16 +23,16 @@ Chains craft into 6 ladders
 Make suggestions/issues [via Issues](https://github.com/Bocz3k/more-ladders/issues)
 
 # Recipes
-
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/acacia.png?raw=true" alt="Acacia ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/bamboo.png?raw=true" alt="Bamboo ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/birch.png?raw=true" alt="Birch ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/chain.png?raw=true" alt="Chain ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/cherry.png?raw=true" alt="Cherry ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/crimson.png?raw=true" alt="Crimson ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/dark_oak.png?raw=true" alt="Dark oak ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/iron.png?raw=true" alt="Iron ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/jungle.png?raw=true" alt="Jungle ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/mangrove.png?raw=true" alt="Mangrove" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/spruce.png?raw=true" alt="Spruce ladder recipe" width="365">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/warped.png?raw=true" alt="Warped ladder recipe" width="365">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/acacia.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/bamboo.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/birch.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/chain.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/cherry.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/crimson.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/dark_oak.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/iron.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/jungle.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/mangrove.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/spruce.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/warped.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/gold.png?raw=true" width="350">
