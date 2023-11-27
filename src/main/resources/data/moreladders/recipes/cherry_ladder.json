@@ -2,14 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "group": "more-ladders",
   "key": {
+    "|": {
+      "item": "minecraft:stick"
+    },
     "#": {
       "item": "minecraft:cherry_planks"
     }
   },
   "pattern": [
-    "   ",
-    "# #",
-    "# #"
+    "| |",
+    "|#|",
+    "| |"
   ],
   "result": {
     "item": "moreladders:cherry_ladder",
