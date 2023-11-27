@@ -7,7 +7,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.LadderBlock;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -33,10 +32,9 @@ public class BlockLadders {
         return Registry.register(Registries.BLOCK, new Identifier(MoreLadders.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block) {
-        Item item = Registry.register(Registries.ITEM, new Identifier(MoreLadders.MOD_ID, name),
+    private static void registerBlockItem(String name, Block block) {
+        Registry.register(Registries.ITEM, new Identifier(MoreLadders.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
-        return item;
     }
 
     public static void registerModBlocks() {
