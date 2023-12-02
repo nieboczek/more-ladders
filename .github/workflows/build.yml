@@ -5,6 +5,8 @@ on:
     paths-ignore:
       - 'README.md'
       - 'src/main/resources/assets/moreladders/lang/**'
+      - '.github/**'
+      - 'images/**'
   pull_request:
     branches: master
     paths-ignore:
