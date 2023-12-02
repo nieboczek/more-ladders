@@ -18,13 +18,23 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      - name: Extract Version from gradle.properties
+        id: extract_version
+        run: echo "VERSION=$(grep mod_version gradle.properties | cut -d'=' -f2)" >> $GITHUB_ENV
+
       - name: Build with Gradle
         run: |
           chmod +x gradlew
           ./gradlew build
 
-      - name: Upload artifacts
+      - name: Upload Mod Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: mods
-          path: build/libs/*.jar
+          name: "moreladders-$VERSION"
+          path: "build/libs/moreladders-$VERSION.jar"
+
+      - name: Upload Mod Sources Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: "moreladders-$VERSION-sources.jar"
+          path: "build/libs/moreladders-$VERSION-sources.jar"
