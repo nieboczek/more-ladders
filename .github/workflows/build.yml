@@ -40,11 +40,11 @@ jobs:
       - name: Upload Mod Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: "moreladders-$VERSION"
-          path: "build/libs/moreladders-$VERSION.jar"
+          name: "moreladders-${{ env.VERSION }}"
+          path: "build/libs/moreladders-${{ env.VERSION }}.jar"
 
       - name: Upload Mod Sources Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: "moreladders-$VERSION-sources"
-          path: "build/libs/moreladders-$VERSION-sources.jar"
+          name: "moreladders-${{ env.VERSION }}-sources"
+          path: "build/libs/moreladders-${{ env.VERSION }}-sources.jar"
