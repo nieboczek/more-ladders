@@ -34,6 +34,9 @@ jobs:
           chmod +x gradlew
           ./gradlew build
 
+      - name: list dir test
+        run: ls -R build/libs/
+
       - name: Upload Mod Artifact
         uses: actions/upload-artifact@v2
         with:
