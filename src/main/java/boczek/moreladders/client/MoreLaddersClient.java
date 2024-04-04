@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 
 public class MoreLaddersClient implements ClientModInitializer {
-
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.BIRCH_LADDER, RenderLayer.getCutout());
@@ -22,5 +21,13 @@ public class MoreLaddersClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.BAMBOO_LADDER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.MANGROVE_LADDER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.GOLD_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.COPPER_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.EXPOSED_COPPER_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.WEATHERED_COPPER_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.OXIDIZED_COPPER_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.WAXED_COPPER_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.WAXED_EXPOSED_COPPER_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.WAXED_WEATHERED_COPPER_LADDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockLadders.WAXED_OXIDIZED_COPPER_LADDER, RenderLayer.getCutout());
     }
 }

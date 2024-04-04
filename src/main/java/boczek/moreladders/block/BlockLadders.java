@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.LadderBlock;
+import net.minecraft.block.Oxidizable;
 import net.minecraft.item.BlockItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -19,13 +20,21 @@ public class BlockLadders {
     public static final Block JUNGLE_LADDER = registerBlock("jungle_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
     public static final Block WARPED_LADDER = registerBlock("warped_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
     public static final Block CRIMSON_LADDER = registerBlock("crimson_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
-    public static final Block IRON_LADDER = registerBlock("iron_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block IRON_LADDER = registerBlock("iron_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.METAL)));
     public static final Block ACACIA_LADDER = registerBlock("acacia_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
-    public static final Block CHAIN_LADDER = registerBlock("chain_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block CHAIN_LADDER = registerBlock("chain_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.CHAIN)));
     public static final Block CHERRY_LADDER = registerBlock("cherry_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
-    public static final Block BAMBOO_LADDER = registerBlock("bamboo_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block BAMBOO_LADDER = registerBlock("bamboo_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.BAMBOO)));
     public static final Block MANGROVE_LADDER = registerBlock("mangrove_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
-    public static final Block GOLD_LADDER = registerBlock("gold_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
+    public static final Block GOLD_LADDER = registerBlock("gold_ladder", new LadderBlock(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.METAL)));
+    public static final Block COPPER_LADDER = registerBlock("copper_ladder", new OxidizableLadder(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.COPPER), Oxidizable.OxidationLevel.UNAFFECTED));
+    public static final Block EXPOSED_COPPER_LADDER = registerBlock("exposed_copper_ladder", new OxidizableLadder(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.COPPER), Oxidizable.OxidationLevel.EXPOSED));
+    public static final Block WEATHERED_COPPER_LADDER = registerBlock("weathered_copper_ladder", new OxidizableLadder(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.COPPER), Oxidizable.OxidationLevel.WEATHERED));
+    public static final Block OXIDIZED_COPPER_LADDER = registerBlock("oxidized_copper_ladder", new OxidizableLadder(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.COPPER), Oxidizable.OxidationLevel.OXIDIZED));
+    public static final Block WAXED_COPPER_LADDER = registerBlock("waxed_copper_ladder", new OxidizableLadder(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.COPPER), Oxidizable.OxidationLevel.UNAFFECTED, true));
+    public static final Block WAXED_EXPOSED_COPPER_LADDER = registerBlock("waxed_exposed_copper_ladder", new OxidizableLadder(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.COPPER), Oxidizable.OxidationLevel.EXPOSED, true));
+    public static final Block WAXED_WEATHERED_COPPER_LADDER = registerBlock("waxed_weathered_copper_ladder", new OxidizableLadder(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.COPPER), Oxidizable.OxidationLevel.WEATHERED, true));
+    public static final Block WAXED_OXIDIZED_COPPER_LADDER = registerBlock("waxed_oxidized_copper_ladder", new OxidizableLadder(FabricBlockSettings.copyOf(Blocks.LADDER).sounds(BlockSoundGroup.COPPER), Oxidizable.OxidationLevel.OXIDIZED, true));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -37,7 +46,5 @@ public class BlockLadders {
                 new BlockItem(block, new FabricItemSettings()));
     }
 
-    public static void registerModBlocks() {
-        MoreLadders.LOGGER.info("Registering Ladders");
-    }
+    public static void initialize() {}
 }

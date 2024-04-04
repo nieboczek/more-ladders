@@ -1,6 +1,5 @@
 {
   "block.minecraft.ladder": "Dębowa drabina",
-
   "block.moreladders.spruce_ladder": "Świerkowa drabina",
   "block.moreladders.birch_ladder": "Brzozowa drabina",
   "block.moreladders.dark_oak_ladder": "Ciemno dębowa drabina",
@@ -14,5 +13,13 @@
   "block.moreladders.bamboo_ladder": "Bambusowa drabina",
   "block.moreladders.mangrove_ladder": "Namarzynowa drabina",
   "block.moreladders.gold_ladder": "Złota drabina",
+  "block.moreladders.copper_ladder": "Miedziana drabina",
+  "block.moreladders.exposed_copper_ladder": "Zwietrzała miedziana drabina",
+  "block.moreladders.weathered_copper_ladder": "Zaśniedziała miedziana drabina",
+  "block.moreladders.oxidized_copper_ladder": "Utleniona miedziana drabina",
+  "block.moreladders.waxed_copper_ladder": "Woskowana miedziana drabina",
+  "block.moreladders.waxed_exposed_copper_ladder": "Woskowana zwietrzała miedziana drabina",
+  "block.moreladders.waxed_weathered_copper_ladder": "Woskowana zaśniedziała miedziana drabina",
+  "block.moreladders.waxed_oxidized_copper_ladder": "Woskowana utleniona miedziana drabina",
   "itemgroup.more-ladders": "More Ladders"
 }
