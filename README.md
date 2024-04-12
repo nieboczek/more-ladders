@@ -22,16 +22,17 @@
 Make suggestions/issues [via Issues](https://github.com/Bocz3k/more-ladders/issues)
 
 # Recipes
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/acacia.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/bamboo.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/birch.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/chain.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/cherry.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/crimson.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/dark_oak.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/iron.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/jungle.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/mangrove.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/spruce.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/warped.png?raw=true" width="350">
-<img src="https://github.com/Bocz3k/more-ladders/blob/master/images/gold.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/acacia.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/bamboo.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/birch.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/chain.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/cherry.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/crimson.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/dark_oak.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/iron.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/jungle.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/mangrove.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/spruce.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/warped.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/gold.png?raw=true" width="350">
+<img src="https://github.com/Bocz3k/more-ladders/blob/1.20.4/images/copper.png?raw=true" width="350">
