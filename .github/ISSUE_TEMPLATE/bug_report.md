@@ -1,7 +1,7 @@
 ---
 name: Bug report
-description: Create a bug report, that I will solve
-about: Create a bug report, that I will solve
+description: Create a bug report
+about: Create a bug report
 title: "[Bug] Title"
 labels: bug
 ---
