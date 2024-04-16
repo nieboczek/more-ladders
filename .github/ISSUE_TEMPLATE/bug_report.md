@@ -1,18 +1,18 @@
 ---
 name: Bug report
-description: Create a bug report, that I will solve
-about: Create a bug report, that I will solve
+description: Create a bug report
+about: Create a bug report
 title: "[Bug] Title"
 labels: bug
-
 ---
+
 # Bug report
 
 ## Info
 <!-- Fill the information -->
-Minecraft version: <!-- 1.20 -->  
-Mod version: <!-- 1.20-1.2 -->  
-Log file: <!-- Optional -->
+Minecraft version: 
+Mod version: 
+Log file: 
 
 ## Bug description
 <!-- A clear description of what the bug is. -->
