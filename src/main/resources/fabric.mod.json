@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "boczek.moreladders.client.MoreLaddersClient"
+      "boczek.moreladders.MoreLaddersClient"
     ],
     "main": [
       "boczek.moreladders.MoreLadders"
@@ -24,6 +24,6 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "1.20.x"
+    "minecraft": ["1.20", "1.20.1", "1.20.2"]
   }
 }
