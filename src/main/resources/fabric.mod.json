@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "boczek.moreladders.client.MoreLaddersClient"
+      "boczek.moreladders.MoreLaddersClient"
     ],
     "main": [
       "boczek.moreladders.MoreLadders"

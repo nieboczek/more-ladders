@@ -1,4 +1,4 @@
-package boczek.moreladders.client;
+package boczek.moreladders;
 
 import boczek.moreladders.block.BlockLadders;
 import net.fabricmc.api.ClientModInitializer;
