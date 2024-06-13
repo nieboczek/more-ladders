@@ -35,11 +35,11 @@ public class BlockLadders {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(MoreLadders.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(MoreLadders.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, new Identifier(MoreLadders.MOD_ID, name),
+        Registry.register(Registries.ITEM, Identifier.of(MoreLadders.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 

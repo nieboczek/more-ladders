@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class MoreLaddersGroup {
     public static void initialize() {
-        Registry.register(Registries.ITEM_GROUP, new Identifier(MoreLadders.MOD_ID, "more-ladders"),
+        Registry.register(Registries.ITEM_GROUP, Identifier.of(MoreLadders.MOD_ID, "more-ladders"),
                 FabricItemGroup.builder().displayName(Text.translatable("itemgroup.more-ladders")).icon(() -> new ItemStack(BlockLadders.SPRUCE_LADDER))
                         .entries((displayContext, entries) -> {
                             entries.add(BlockLadders.SPRUCE_LADDER);
