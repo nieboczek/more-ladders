@@ -39,8 +39,7 @@ public class BlockLadders {
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(MoreLadders.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
+        Registry.register(Registries.ITEM, Identifier.of(MoreLadders.MOD_ID, name), new BlockItem(block, new Item.Settings()));
     }
 
     public static void initialize() {

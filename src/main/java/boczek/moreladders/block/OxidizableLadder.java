@@ -27,11 +27,6 @@ public class OxidizableLadder extends LadderBlock implements Oxidizable {
 
     @Override
     public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-//        if (random.nextFloat() < 0.05688889F) {
-//            this.tryDegrade(state, world, pos, random).ifPresent((degraded) -> {
-//                world.setBlockState(pos, degraded);
-//            });
-//        }
         this.tickDegradation(state, world, pos, random);
     }
 
