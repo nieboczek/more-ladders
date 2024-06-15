@@ -16,10 +16,10 @@
 - Gold ladder
 - Copper ladder
 
+## Notes
 [<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/requires/fabric-api_64h.png" alt="Requires Fabric API">](https://modrinth.com/mod/fabric-api)
 [<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png" alt="Avaliable on Modrinth">](https://modrinth.com/mod/moreladders)
 
-## Notes
 Make suggestions/issues [via Issues](https://github.com/Bocz3k/more-ladders/issues)
 
 # Recipes
