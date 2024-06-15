@@ -16,14 +16,10 @@
 - Gold ladder
 - Copper ladder
 
-## Notes
-Please download [QFAPI / QSL](https://modrinth.com/mod/qsl) for Quilt Loader
-or [Fabric API](https://modrinth.com/mod/fabric-api) for Fabric Loader
-
 [<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/requires/fabric-api_64h.png" alt="Requires Fabric API">](https://modrinth.com/mod/fabric-api)
-[<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/requires/quilted-fabric-api_64h.png">](https://modrinth.com/mod/qsl)
 [<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png" alt="Avaliable on Modrinth">](https://modrinth.com/mod/moreladders)
 
+## Notes
 Make suggestions/issues [via Issues](https://github.com/Bocz3k/more-ladders/issues)
 
 # Recipes
