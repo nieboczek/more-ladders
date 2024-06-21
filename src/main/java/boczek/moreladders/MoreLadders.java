@@ -1,7 +1,6 @@
 package boczek.moreladders;
 
-import boczek.moreladders.block.BlockLadders;
-import boczek.moreladders.item.MoreLaddersGroup;
+import boczek.moreladders.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 public class MoreLadders implements ModInitializer {
@@ -9,7 +8,7 @@ public class MoreLadders implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        BlockLadders.initialize();
+        ModBlocks.initialize();
         MoreLaddersGroup.initialize();
     }
 }
