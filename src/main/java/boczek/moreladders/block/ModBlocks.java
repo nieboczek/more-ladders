@@ -34,13 +34,8 @@ public class ModBlocks {
     public static final Block WAXED_OXIDIZED_COPPER_LADDER = registerBlock("waxed_oxidized_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.OXIDIZED, true));
 
     private static Block registerBlock(String name, Block block) {
-        registerBlockItem(name, block);
+        Registry.register(Registries.ITEM, new Identifier(MoreLadders.MOD_ID, name), new BlockItem(block, new Item.Settings()));
         return Registry.register(Registries.BLOCK, new Identifier(MoreLadders.MOD_ID, name), block);
-    }
-
-    private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, new Identifier(MoreLadders.MOD_ID, name),
-                new BlockItem(block, new Item.Settings()));
     }
 
     public static void initialize() {
