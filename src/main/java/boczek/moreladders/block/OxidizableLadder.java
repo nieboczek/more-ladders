@@ -15,7 +15,7 @@ public class OxidizableLadder extends LadderBlock implements Oxidizable {
         oxidationLevel = level;
     }
 
-    public OxidizableLadder(Settings settings, Oxidizable.OxidationLevel level, boolean waxed) {
+    public OxidizableLadder(Settings settings, Oxidizable.OxidationLevel level, boolean _waxed) {
         super(settings);
         oxidationLevel = level;
     }
