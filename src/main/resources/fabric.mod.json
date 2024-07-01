@@ -25,5 +25,8 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": ["1.20.3", "1.20.4"]
-  }
+  },
+  "mixins": [
+    "moreladders.mixins.json"
+  ]
 }
