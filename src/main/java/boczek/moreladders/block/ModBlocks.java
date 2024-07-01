@@ -24,14 +24,14 @@ public class ModBlocks {
     public static final Block BAMBOO_LADDER = registerBlock("bamboo_ladder", new LadderBlock(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.BAMBOO)));
     public static final Block MANGROVE_LADDER = registerBlock("mangrove_ladder", new LadderBlock(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
     public static final Block GOLD_LADDER = registerBlock("gold_ladder", new LadderBlock(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.METAL).requiresTool()));
-    public static final Block COPPER_LADDER = registerBlock("copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.UNAFFECTED));
-    public static final Block EXPOSED_COPPER_LADDER = registerBlock("exposed_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.EXPOSED));
-    public static final Block WEATHERED_COPPER_LADDER = registerBlock("weathered_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.WEATHERED));
-    public static final Block OXIDIZED_COPPER_LADDER = registerBlock("oxidized_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.OXIDIZED));
-    public static final Block WAXED_COPPER_LADDER = registerBlock("waxed_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.UNAFFECTED, true));
-    public static final Block WAXED_EXPOSED_COPPER_LADDER = registerBlock("waxed_exposed_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.EXPOSED, true));
-    public static final Block WAXED_WEATHERED_COPPER_LADDER = registerBlock("waxed_weathered_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.WEATHERED, true));
-    public static final Block WAXED_OXIDIZED_COPPER_LADDER = registerBlock("waxed_oxidized_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.COPPER).requiresTool(), Oxidizable.OxidationLevel.OXIDIZED, true));
+    public static final Block COPPER_LADDER = registerBlock("copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).ticksRandomly(), Oxidizable.OxidationLevel.UNAFFECTED));
+    public static final Block EXPOSED_COPPER_LADDER = registerBlock("exposed_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).ticksRandomly(), Oxidizable.OxidationLevel.EXPOSED));
+    public static final Block WEATHERED_COPPER_LADDER = registerBlock("weathered_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER).ticksRandomly(), Oxidizable.OxidationLevel.WEATHERED));
+    public static final Block OXIDIZED_COPPER_LADDER = registerBlock("oxidized_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER), Oxidizable.OxidationLevel.OXIDIZED));
+    public static final Block WAXED_COPPER_LADDER = registerBlock("waxed_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER), Oxidizable.OxidationLevel.UNAFFECTED));
+    public static final Block WAXED_EXPOSED_COPPER_LADDER = registerBlock("waxed_exposed_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER), Oxidizable.OxidationLevel.EXPOSED));
+    public static final Block WAXED_WEATHERED_COPPER_LADDER = registerBlock("waxed_weathered_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER), Oxidizable.OxidationLevel.WEATHERED));
+    public static final Block WAXED_OXIDIZED_COPPER_LADDER = registerBlock("waxed_oxidized_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER), Oxidizable.OxidationLevel.OXIDIZED));
 
     private static Block registerBlock(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(MoreLadders.MOD_ID, name), new BlockItem(block, new Item.Settings()));
