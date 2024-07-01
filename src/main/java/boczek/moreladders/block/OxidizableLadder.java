@@ -4,6 +4,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.LadderBlock;
 import net.minecraft.block.Oxidizable;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
@@ -11,12 +12,7 @@ public class OxidizableLadder extends LadderBlock implements Oxidizable {
     private final OxidationLevel oxidationLevel;
 
     public OxidizableLadder(Settings settings, Oxidizable.OxidationLevel level) {
-        super(settings.ticksRandomly());
-        oxidationLevel = level;
-    }
-
-    public OxidizableLadder(Settings settings, Oxidizable.OxidationLevel level, boolean _waxed) {
-        super(settings);
+        super(settings.sounds(BlockSoundGroup.COPPER).requiresTool());
         oxidationLevel = level;
     }
 
