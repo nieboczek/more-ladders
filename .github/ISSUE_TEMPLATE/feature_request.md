@@ -2,11 +2,8 @@
 name: Feature request
 description: Suggest an idea for this project
 about: Suggest an idea for this project
-title: "[Enhacement] Title"
+title: "Title Here"
 labels: enhancement
-
 ---
-# Feature Request
-
 ## Description of the idea
 <!-- Clear description of your idea -->
