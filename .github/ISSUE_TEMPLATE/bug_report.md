@@ -2,21 +2,19 @@
 name: Bug report
 description: Create a bug report
 about: Create a bug report
-title: "[Bug] Title"
+title: "Title Here"
 labels: bug
 ---
-
-# Bug report
-
 ## Info
 <!-- Fill the information -->
-Minecraft version: 
-Mod version: 
-Log file: 
+Mod version:   
+Log file:   <!-- Technically not needed, but might be asked for later -->
 
 ## Bug description
-<!-- A clear description of what the bug is. -->
+<!-- A clear description of what the bug is -->
 
+## How did you trigger the bug?
+<!-- Can be a step-by-step guide, clear description or something similar -->
 
 ## Screenshots
 <!-- You can add some screenshots if you want -->
