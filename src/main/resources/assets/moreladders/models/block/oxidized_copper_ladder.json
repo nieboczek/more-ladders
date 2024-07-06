@@ -1,5 +1,5 @@
 {
-  "parent": "block/ladder",
+  "parent": "moreladders:block/2d_ladder",
   "textures": {
     "particle": "moreladders:block/oxidized_copper_ladder",
     "texture": "moreladders:block/oxidized_copper_ladder"

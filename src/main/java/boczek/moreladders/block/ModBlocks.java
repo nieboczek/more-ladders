@@ -34,8 +34,8 @@ public class ModBlocks {
     public static final Block WAXED_OXIDIZED_COPPER_LADDER = registerBlock("waxed_oxidized_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER), Oxidizable.OxidationLevel.OXIDIZED));
 
     private static Block registerBlock(String name, Block block) {
-        Registry.register(Registries.ITEM, new Identifier(MoreLadders.MOD_ID, name), new BlockItem(block, new Item.Settings()));
-        return Registry.register(Registries.BLOCK, new Identifier(MoreLadders.MOD_ID, name), block);
+        Registry.register(Registries.ITEM, MoreLadders.id(name), new BlockItem(block, new Item.Settings()));
+        return Registry.register(Registries.BLOCK, MoreLadders.id(name), block);
     }
 
     public static void initialize() {
