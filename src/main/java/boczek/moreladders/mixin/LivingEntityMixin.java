@@ -9,7 +9,6 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
@@ -21,7 +20,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(LivingEntity.class)
 public abstract class LivingEntityMixin extends Entity {
     @Unique
-    private static final TagKey<Block> MAKE_TRAPDOOR_CLIMBABLE_LADDERS = TagKey.of(Registries.BLOCK.getKey(), new Identifier(MoreLadders.MOD_ID, "make_trapdoor_climbable_ladders"));
+    private static final TagKey<Block> MAKE_TRAPDOOR_CLIMBABLE_LADDERS = TagKey.of(Registries.BLOCK.getKey(), MoreLadders.id("make_trapdoor_climbable_ladders"));
 
     public LivingEntityMixin(EntityType<?> type, World world) {
         super(type, world);
