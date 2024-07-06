@@ -32,16 +32,11 @@ public abstract class LivingEntityMixin extends Entity {
     private void canEnterTrapdoor(BlockPos pos, BlockState state, CallbackInfoReturnable<Boolean> cir) {
         if (state.get(TrapdoorBlock.OPEN)) {
             BlockState blockState = getWorld().getBlockState(pos.down());
-            if (isClimbableBlock(blockState)) {
+            if (blockState.isIn(MAKE_TRAPDOOR_CLIMBABLE_LADDERS)) {
                 cir.setReturnValue(true);
                 return;
             }
         }
         cir.setReturnValue(false);
-    }
-
-    @Unique
-    private boolean isClimbableBlock(BlockState blockState) {
-        return blockState.isIn(MAKE_TRAPDOOR_CLIMBABLE_LADDERS);
     }
 }
