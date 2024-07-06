@@ -6,12 +6,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
 
 public class MoreLaddersGroup {
     public static void initialize() {
-        Registry.register(Registries.ITEM_GROUP, new Identifier(MoreLadders.MOD_ID, "more-ladders"),
-                FabricItemGroup.builder().displayName(Text.translatable("itemgroup.more-ladders")).icon(() -> new ItemStack(ModBlocks.SPRUCE_LADDER))
+        Registry.register(Registries.ITEM_GROUP, MoreLadders.id("more-ladders"), FabricItemGroup.builder()
+                .displayName(Text.literal("More Ladders")).icon(() -> new ItemStack(ModBlocks.SPRUCE_LADDER))
                         .entries((displayContext, entries) -> {
                             entries.add(ModBlocks.SPRUCE_LADDER);
                             entries.add(ModBlocks.BIRCH_LADDER);

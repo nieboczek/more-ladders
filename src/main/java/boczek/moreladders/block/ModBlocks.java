@@ -8,7 +8,6 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block SPRUCE_LADDER = registerBlock("spruce_ladder", new LadderBlock(AbstractBlock.Settings.copy(Blocks.LADDER).sounds(BlockSoundGroup.LADDER)));
@@ -34,8 +33,8 @@ public class ModBlocks {
     public static final Block WAXED_OXIDIZED_COPPER_LADDER = registerBlock("waxed_oxidized_copper_ladder", new OxidizableLadder(AbstractBlock.Settings.copy(Blocks.LADDER), Oxidizable.OxidationLevel.OXIDIZED));
 
     private static Block registerBlock(String name, Block block) {
-        Registry.register(Registries.ITEM, new Identifier(MoreLadders.MOD_ID, name), new BlockItem(block, new Item.Settings()));
-        return Registry.register(Registries.BLOCK, new Identifier(MoreLadders.MOD_ID, name), block);
+        Registry.register(Registries.ITEM, MoreLadders.id(name), new BlockItem(block, new Item.Settings()));
+        return Registry.register(Registries.BLOCK, MoreLadders.id(name), block);
     }
 
     public static void initialize() {
