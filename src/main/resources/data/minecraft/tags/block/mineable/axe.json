@@ -11,6 +11,10 @@
     "moreladders:jungle_ladder",
     "moreladders:mangrove_ladder",
     "moreladders:spruce_ladder",
-    "moreladders:warped_ladder"
+    "moreladders:warped_ladder",
+    {
+      "id": "moreladders:redwood_ladder",
+      "required": false
+    }
   ]
 }

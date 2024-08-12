@@ -2,7 +2,9 @@ package boczek.moreladders;
 
 import boczek.moreladders.MoreLadders;
 import boczek.moreladders.block.ModBlocks;
+import boczek.moreladders.compat.biomesoplenty.BiomesOPlentyBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -34,6 +36,9 @@ public class MoreLaddersGroup {
                             entries.add(ModBlocks.WAXED_EXPOSED_COPPER_LADDER);
                             entries.add(ModBlocks.WAXED_WEATHERED_COPPER_LADDER);
                             entries.add(ModBlocks.WAXED_OXIDIZED_COPPER_LADDER);
+                            if (FabricLoader.getInstance().isModLoaded("biomesoplenty")) {
+                                entries.add(BiomesOPlentyBlocks.REDWOOD_LADDER);
+                            }
                         }).build());
     }
 }

@@ -1,6 +1,7 @@
 package boczek.moreladders;
 
 import boczek.moreladders.block.ModBlocks;
+import boczek.moreladders.compat.biomesoplenty.BiomesOPlentyClient;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
@@ -34,6 +35,11 @@ public class MoreLaddersClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WAXED_EXPOSED_COPPER_LADDER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WAXED_WEATHERED_COPPER_LADDER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WAXED_OXIDIZED_COPPER_LADDER, RenderLayer.getCutout());
+
+        if (FabricLoader.getInstance().isModLoaded("biomesoplenty")) {
+            MoreLadders.LOGGER.info("Found biomesoplenty while initializing client, loading compatibility class");
+            BiomesOPlentyClient.initialize();
+        }
 
         ModContainer container = FabricLoader.getInstance().getModContainer(MoreLadders.MOD_ID)
                 .orElseThrow(() -> new IllegalStateException("MoreLadders mod container couldn't be found"));
