@@ -5,6 +5,6 @@ import net.minecraft.client.render.RenderLayer;
 
 public class BiomesOPlentyClient {
     public static void initialize() {
-        BlockRenderLayerMap.INSTANCE.putBlock(BiomesOPlentyBlocks.REDWOOD_LADDER, RenderLayer.getCutout());
+        BiomesOPlenty.blocks.forEach(block -> BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout()));
     }
 }
