@@ -21,6 +21,10 @@
     "moreladders:waxed_copper_ladder",
     "moreladders:waxed_exposed_copper_ladder",
     "moreladders:waxed_weathered_copper_ladder",
-    "moreladders:waxed_oxidized_copper_ladder"
+    "moreladders:waxed_oxidized_copper_ladder",
+    {
+      "id": "moreladders:redwood_ladder",
+      "required": false
+    }
   ]
 }
